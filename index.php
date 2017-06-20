@@ -47,9 +47,8 @@
         <div class="col-sm-8">
             <!-- using short-code `lorem` for generate random, simply, dummy text -->
             <?php
-            for($i = 0; $i < 100; $i++){
-                echo 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias aliquid consequuntur cupiditate doloribus, ducimus enim in, magnam non officiis porro possimus quaerat recusandae repellat reprehenderit, sed sequi tenetur veniam.<br>';
-            }
+            $articles_json = file_get_contents('media-items.json');
+            echo $articles_json;
             ?>
         </div>
         <div class="col-sm-4">
