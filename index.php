@@ -1,11 +1,7 @@
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="app.css">
 <!--using short-code `bs3-cdn:css` then tab for declare this page use Bootstrap's styles -->
-<style>
-    body{
-        margin-top:55px;
-    }
-</style>
 <body>
 <!--using `bs3-navbar` for auto generate Bootstrap 3 Navigation Bar-->
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
