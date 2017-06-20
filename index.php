@@ -1,9 +1,14 @@
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <!--using short-code `bs3-cdn:css` then tab for declare this page use Bootstrap's styles -->
+<style>
+    body{
+        margin-top:55px;
+    }
+</style>
 <body>
 <!--using `bs3-navbar` for auto generate Bootstrap 3 Navigation Bar-->
-<nav class="navbar navbar-default" role="navigation">
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
