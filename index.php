@@ -48,8 +48,11 @@
             <!-- using short-code `lorem` for generate random, simply, dummy text -->
             <?php
             $articles_json = file_get_contents('media-items.json');
-            var_export(json_decode($articles_json));
-//            echo $articles_json;
+            $articles = (json_decode($articles_json));
+            foreach ($articles as $article){
+                var_export($article);
+                break;
+            }
             ?>
         </div>
         <div class="col-sm-4">
