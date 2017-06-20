@@ -50,7 +50,10 @@
             $articles_json = file_get_contents('media-items.json');
             $articles = (json_decode($articles_json));
             foreach ($articles as $article){
-                var_export($article);
+                echo "<h4>".$article->title."</h4>";
+                if ($article->type === 'image') {
+                    echo "<img src='" . $article->media_source . "'>";
+                }
                 break;
             }
             ?>
