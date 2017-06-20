@@ -45,7 +45,12 @@
     <div class="row">
         <div class="col-sm-8">
             <!-- using short-code `lorem` for generate random, simply, dummy text -->
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo facilis iure quos ratione unde ut voluptatibus? Accusantium amet consequuntur doloremque excepturi fugit hic impedit labore neque officia, optio placeat repellat.</div>
+            <?php
+            for($i = 0; $i < 100; $i++){
+                echo 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias aliquid consequuntur cupiditate doloribus, ducimus enim in, magnam non officiis porro possimus quaerat recusandae repellat reprehenderit, sed sequi tenetur veniam.<br>';
+            }
+            ?>
+        </div>
         <div class="col-sm-4">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dolor impedit nam nesciunt, omnis tempore veniam. Deserunt, dolores eos, error facere, fugiat illum magnam maiores optio porro quos saepe sequi!
         </div>
