@@ -1,6 +1,8 @@
 <!-- Latest compiled and minified CSS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Latest compiled and minified JS -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link rel="stylesheet" href="http://bootswatch.com/paper/bootstrap.min.css">
 <link rel="stylesheet" href="app.css">
 <!--using short-code `bs3-cdn:css` then tab for declare this page use Bootstrap's styles -->
 <body class="toplevel_page_list_gags">
