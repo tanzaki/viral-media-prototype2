@@ -55,9 +55,13 @@
                 $articles = (json_decode($articles_json));
                 foreach ($articles as $article){
                     echo "<div class='gag-item'>";
-                    echo "<h4>".$article->title."</h4>";
+                    echo "<h4 class='gag-title'>{$article->title}</h4>";
                     if ($article->type === 'image') {
-                        echo "<img src='{$article->media_source}'>";
+                        echo "
+<div class='gag-media-content'>
+<img src='{$article->media_source}'>
+</div>                        
+                        ";
                     }
                     echo "
 <div class='counts'>
