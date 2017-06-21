@@ -88,9 +88,9 @@
             </div>
             <div class="modal-body">
                 <div id="form-upload">
-
+                    <div class="row buttons-switch-form"></div>
+                    <div class="forms"></div>
                 </div>
-                <p>Some text in the modal.</p>
             </div>
         </div>
 
