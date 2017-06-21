@@ -63,9 +63,20 @@
         <span class='btn btn-default'>
             <span class='glyphicon glyphicon-chevron-up'></span>
         </span>
+        <span class='btn btn-default'>
+            <span class='glyphicon glyphicon-chevron-down'></span>
+        </span>
+        <span class='btn btn-default'>
+            <span class='glyphicon glyphicon-comment'></span>
+        </span>
     </div>
     <div class='actions-in-right pull-right'>
-        
+        <span class='btn btn-facebook'>
+            Facebook
+        </span>
+        <span class='btn btn-twitter'>
+            Twitter
+        </span>
     </div>
 </div>
 ";
