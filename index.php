@@ -67,11 +67,11 @@
                     echo "
 <div class='counts'>
     <span class='points'>
-        2,728 points
+        <a href='#'>2,728 points</a>
     </span>
      · 
     <span class='comments'>
-        200 comments
+        <a href='#'>200 comments</a>
     </span>
 </div>
 <div class='actions'>
