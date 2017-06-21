@@ -5,9 +5,10 @@ body{
       .gag-item{
         max-width: 500px;
         .gag-title{
-
+          font-weight: bolder;
         }
         .gag-media-content{
+          border:1px solid #ddd;
           img{
             width:500px;
             display: block;

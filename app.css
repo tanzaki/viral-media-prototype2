@@ -2,11 +2,15 @@ body {
   margin-top: 55px; }
   body #main_section #list_gags .gag-item {
     max-width: 500px; }
-    body #main_section #list_gags .gag-item .gag-media-content img {
-      width: 500px;
-      display: block;
-      max-width: 100%;
-      height: auto; }
+    body #main_section #list_gags .gag-item .gag-title {
+      font-weight: bolder; }
+    body #main_section #list_gags .gag-item .gag-media-content {
+      border: 1px solid #ddd; }
+      body #main_section #list_gags .gag-item .gag-media-content img {
+        width: 500px;
+        display: block;
+        max-width: 100%;
+        height: auto; }
     body #main_section #list_gags .gag-item .actions .actions-in-left .btn {
       margin-right: 5px;
       padding-left: 14px;
