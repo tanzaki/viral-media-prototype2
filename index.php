@@ -59,7 +59,7 @@
                 }
                 echo "
 <div class='actions'>
-    <div class='actions-in-left'>
+    <div class='actions-in-left pull-left'>
         <span class='btn btn-default'>
             <span class='glyphicon glyphicon-chevron-up'></span>
         </span>
@@ -79,6 +79,7 @@
         </span>
     </div>
 </div>
+    <div style='clear:both'></div>
 ";
                 echo "</div>";
             }
