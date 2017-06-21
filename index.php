@@ -46,16 +46,18 @@
 </nav>
 <div class="container">
     <div class="row">
-        <div class="col-sm-8">
+        <div class="col-sm-8" id="list-gags">
             <!-- using short-code `lorem` for generate random, simply, dummy text -->
             <?php
             $articles_json = file_get_contents('media-items.json');
             $articles = (json_decode($articles_json));
             foreach ($articles as $article){
+                echo "<div class='gag-item'>";
                 echo "<h4>".$article->title."</h4>";
                 if ($article->type === 'image') {
                     echo "<img src='" . $article->media_source . "'>";
                 }
+                echo "</div>";
             }
             ?>
         </div>
