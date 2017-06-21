@@ -17,18 +17,19 @@ body{
               margin-right:5px;
               padding-left:14px;
               padding-right:11px;
+
+              &.btn-like{
+              }
+              &.btn-unlike{
+
+              }
+              &.btn-comment{
+
+              }
             }
             .glyphicon{
               color: #999;
               font-size: 20px;
-            }
-            .btn-like{
-            }
-            .btn-unlike{
-
-            }
-            .btn-comment{
-
             }
           }
           .actions-in-right{

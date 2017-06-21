@@ -92,7 +92,9 @@
 </div>
     <div style='clear:both'></div>
 ";
-                    echo "</div>";
+                    echo "
+<hr>
+</div>";
                 }
                 ?>
             </div>
