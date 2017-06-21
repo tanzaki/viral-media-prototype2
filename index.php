@@ -59,8 +59,14 @@
                 }
                 echo "
 <div class='actions'>
-    <div class='actions-in-left'></div>
-    <div class='actions-in-right pull-right'></div>
+    <div class='actions-in-left'>
+        <span class='btn btn-default'>
+            <span class='glyphicon glyphicon-chevron-up'></span>
+        </span>
+    </div>
+    <div class='actions-in-right pull-right'>
+        
+    </div>
 </div>
 ";
                 echo "</div>";
