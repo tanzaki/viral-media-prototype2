@@ -26,16 +26,7 @@
             </form>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#">Link</a></li>
-                <li><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li><a href="#">Separated link</a></li>
-                    </ul>
-                </li>
+                <li><a href="#" type="button" data-toggle="modal" data-target="#myModal"> + Upload</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div>
