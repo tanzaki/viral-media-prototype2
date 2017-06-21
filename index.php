@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="app.css">
 <!--using short-code `bs3-cdn:css` then tab for declare this page use Bootstrap's styles -->
-<body>
+<body class="toplevel_page_list_gags">
 <!--using `bs3-navbar` for auto generate Bootstrap 3 Navigation Bar-->
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
@@ -46,18 +46,20 @@
 </nav>
 <div class="container">
     <div class="row">
-        <div class="col-sm-8" id="list-gags">
-            <!-- using short-code `lorem` for generate random, simply, dummy text -->
-            <?php
-            $articles_json = file_get_contents('media-items.json');
-            $articles = (json_decode($articles_json));
-            foreach ($articles as $article){
-                echo "<div class='gag-item'>";
-                echo "<h4>".$article->title."</h4>";
-                if ($article->type === 'image') {
-                    echo "<img src='" . $article->media_source . "'>";
-                }
-                echo "
+        <div class="col-sm-8" id="main_section">
+            <div id="list_gags">
+
+                <!-- using short-code `lorem` for generate random, simply, dummy text -->
+                <?php
+                $articles_json = file_get_contents('media-items.json');
+                $articles = (json_decode($articles_json));
+                foreach ($articles as $article){
+                    echo "<div class='gag-item'>";
+                    echo "<h4>".$article->title."</h4>";
+                    if ($article->type === 'image') {
+                        echo "<img src='" . $article->media_source . "'>";
+                    }
+                    echo "
 <div class='actions'>
     <div class='actions-in-left pull-left'>
         <span class='btn btn-default'>
@@ -81,11 +83,12 @@
 </div>
     <div style='clear:both'></div>
 ";
-                echo "</div>";
-            }
-            ?>
+                    echo "</div>";
+                }
+                ?>
+            </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4" id="sidebar_section">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dolor impedit nam nesciunt, omnis tempore veniam. Deserunt, dolores eos, error facere, fugiat illum magnam maiores optio porro quos saepe sequi!
         </div>
         <div class="col-sm-8">
