@@ -1,4 +1,15 @@
 body{
+  .navbar{
+    #user-functions{
+      .button-upload{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-top: 10px;
+        background-color: #0099FF;
+        color: #fff;
+      }
+    }
+  }
   margin-top:83px;
   #main_section{
     #list_gags{

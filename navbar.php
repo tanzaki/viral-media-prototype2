@@ -24,9 +24,9 @@
                 </div>
                 <button type="submit" class="btn btn-default">Submit</button>
             </form>
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-right" id="user-functions">
                 <li><a href="#">Link</a></li>
-                <li><a href="#" type="button" data-toggle="modal" data-target="#myModal"> + Upload</a></li>
+                <li><a class="button-upload" href="#" type="button" data-toggle="modal" data-target="#myModal"> + Upload</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div>

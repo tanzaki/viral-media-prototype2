@@ -1,5 +1,11 @@
 body {
   margin-top: 83px; }
+  body .navbar #user-functions .button-upload {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    background-color: #0099FF;
+    color: #fff; }
   body #main_section #list_gags .gag-item {
     max-width: 500px; }
     body #main_section #list_gags .gag-item .gag-title {
