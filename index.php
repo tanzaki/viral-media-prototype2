@@ -60,6 +60,15 @@
                         echo "<img src='" . $article->media_source . "'>";
                     }
                     echo "
+<div class='counts'>
+    <span class='points'>
+        2,728 points
+    </span>
+     · 
+    <span class='comments'>
+        200 comments
+    </span>
+</div>
 <div class='actions'>
     <div class='actions-in-left pull-left'>
         <span class='btn btn-default btn-like'>
