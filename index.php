@@ -56,12 +56,17 @@
                 if ($article->type === 'image') {
                     echo "<img src='" . $article->media_source . "'>";
                 }
-                break;
             }
             ?>
         </div>
         <div class="col-sm-4">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dolor impedit nam nesciunt, omnis tempore veniam. Deserunt, dolores eos, error facere, fugiat illum magnam maiores optio porro quos saepe sequi!
+        </div>
+        <div class="col-sm-8">
+            <ul class="pager">
+                <li><a href="#">Previous</a></li>
+                <li><a href="#">Next</a></li>
+            </ul>
         </div>
     </div>
 </div>
