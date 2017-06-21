@@ -57,7 +57,7 @@
                     echo "<div class='gag-item'>";
                     echo "<h4>".$article->title."</h4>";
                     if ($article->type === 'image') {
-                        echo "<img src='" . $article->media_source . "'>";
+                        echo "<img src='{$article->media_source}'>";
                     }
                     echo "
 <div class='counts'>
