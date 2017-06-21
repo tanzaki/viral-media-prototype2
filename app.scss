@@ -32,11 +32,15 @@ body{
             }
           }
           .actions-in-right{
+            color:white;
+            .btn:hover{
+              color:white;
+            }
             .btn-share-facebook{
-
+              background-color: #3B5998;
             }
             .btn-share-twitter{
-
+              background-color: #BD081C;
             }
           }
         }
