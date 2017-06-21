@@ -1,3 +1,29 @@
 body{
   margin-top:55px;
+  #main_section{
+    #list_gags{
+      .gag-item{
+        .actions{
+          .actions-in-left{
+            .btn-like{
+            }
+            .btn-unlike{
+
+            }
+            .btn-comment{
+
+            }
+          }
+          .actions-in-right{
+            .btn-share-facebook{
+
+            }
+            .btn-share-twitter{
+
+            }
+          }
+        }
+      }
+    }
+  }
 }
