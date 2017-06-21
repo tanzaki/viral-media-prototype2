@@ -26,6 +26,7 @@
             </form>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#">Link</a></li>
+                <li><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
                     <ul class="dropdown-menu">
