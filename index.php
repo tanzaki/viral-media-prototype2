@@ -57,6 +57,12 @@
                 if ($article->type === 'image') {
                     echo "<img src='" . $article->media_source . "'>";
                 }
+                echo "
+<div class='actions'>
+    <div class='actions-in-left'></div>
+    <div class='actions-in-right pull-right'></div>
+</div>
+";
                 echo "</div>";
             }
             ?>
