@@ -3,12 +3,16 @@ body{
   #main_section{
     #list_gags{
       .gag-item{
+        max-width: 500px;
         .gag-title{
 
         }
         .gag-media-content{
           img{
-
+            width:500px;
+            display: block;
+            max-width: 100%;
+            height: auto;
           }
         }
         .actions{
