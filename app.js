@@ -31,7 +31,7 @@ jQuery(function ($) {
         deactivate_button(btn_choose_files);
         deactivate_button(btn_paste_video);
     };
-
+    form_create_media.find('.btn-submit').text('Next');
     var activate_button = function (button) {
         deactivate_buttons();
         button.addClass('active');
