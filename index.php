@@ -89,7 +89,19 @@
             <div class="modal-body">
                 <div id="form-upload">
                     <div class="row buttons-switch-form"></div>
-                    <div class="forms"></div>
+                    <hr>
+                    <div class="forms">
+                        <div role="form">
+                            <h3 class="title"></h3>
+
+                            <div class="form-group">
+                                <label for="media_input"></label>
+                                <input type="text" class="form-control" name="" id="media_input" placeholder="https://">
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-submit"></button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
