@@ -42,6 +42,21 @@ body {
       background-size: 224px 82px;
       width: 52px;
       height: 42px; }
+  body #sidebar_section .featured_items .featured_item_wrap {
+    margin-bottom: 16px; }
+    body #sidebar_section .featured_items .featured_item_wrap .image_wrap {
+      height: 100px;
+      width: 300px;
+      overflow: hidden;
+      border: 1px solid rgba(0, 0, 0, 0.1); }
+      body #sidebar_section .featured_items .featured_item_wrap .image_wrap img {
+        max-width: 100%; }
+    body #sidebar_section .featured_items .featured_item_wrap .title {
+      text-decoration: none;
+      color: black;
+      font-weight: bold; }
+      body #sidebar_section .featured_items .featured_item_wrap .title:hover {
+        color: #0099FF; }
   body #main_section #list_gags .gag-item {
     max-width: 500px; }
     body #main_section #list_gags .gag-item .gag-title {

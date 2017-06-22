@@ -17,7 +17,7 @@
                 <?php
                 $articles_json = file_get_contents('media-items.json');
                 $articles = (json_decode($articles_json));
-                foreach ($articles as $article){
+                foreach ($articles as $article) {
                     echo "<div class='gag-item'>";
                     echo "<h4 class='gag-title'>{$article->title}</h4>";
                     if ($article->type === 'image') {
@@ -68,7 +68,24 @@
             </div>
         </div>
         <div class="col-sm-4" id="sidebar_section">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dolor impedit nam nesciunt, omnis tempore veniam. Deserunt, dolores eos, error facere, fugiat illum magnam maiores optio porro quos saepe sequi!
+            <div class="featured_items">
+                <?php
+                shuffle($articles);
+                foreach ($articles as $article) {
+                    $media_html = <<<HTML
+                    <img src="{$article->media_source}" alt="">
+HTML;
+                    echo <<<HTML
+                    <div class="featured_item_wrap">
+                        <div class="image_wrap">
+                            $media_html
+                        </div>
+                        <a href="#" class="title">{$article->title}</a>
+                    </div>
+HTML;
+                }
+                ?>
+            </div>
         </div>
         <div class="col-sm-8">
             <ul class="pager">
@@ -96,7 +113,8 @@
 
                             <div class="form-group">
                                 <label for="media_input"></label>
-                                <input type="text" class="form-control" name="user_file_media" id="media_input" placeholder="https://">
+                                <input type="text" class="form-control" name="user_file_media" id="media_input"
+                                       placeholder="https://">
                             </div>
 
                             <div class="pull-right">
