@@ -21,7 +21,18 @@ jQuery(function ($) {
     btn_paste_video.addClass('icon-box-paste_video').prepend('<div class="icon_box-text">Paste video url</div>').prepend('<div class="icon"></div>');
     btn_make_meme.addClass('icon-box-make_meme').prepend('<div class="icon_box-text">Make meme</div>').prepend('<div class="icon"></div>');
 
+    var deactivate_button = function (button) {
+        button.removeClass('active');
+    };
+    var deactivate_buttons = function () {
+        deactivate_button(btn_paste_image);
+        deactivate_button(btn_make_meme);
+        deactivate_button(btn_choose_files);
+        deactivate_button(btn_paste_video);
+    };
+
     var activate_button = function (button) {
+        deactivate_buttons();
         button.addClass('active');
     };
     var switch_form_create_media = function (form_id) {
