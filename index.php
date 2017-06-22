@@ -91,7 +91,7 @@
                     <div class="row buttons-switch-form"></div>
                     <hr>
                     <div class="forms">
-                        <div role="form">
+                        <form method="post" role="form">
                             <h3 class="title"></h3>
 
                             <div class="form-group">
@@ -99,8 +99,12 @@
                                 <input type="text" class="form-control" name="" id="media_input" placeholder="https://">
                             </div>
 
-                            <button type="submit" class="btn btn-primary btn-submit"></button>
-                        </div>
+                            <div class="pull-right">
+                                <button type="submit" class="btn btn-default btn-cancel" data-dismiss="modal"></button>
+                                <button type="submit" class="btn btn-primary btn-submit"></button>
+                            </div>
+                            <div style="clear: both;"></div>
+                        </form>
                     </div>
                 </div>
             </div>

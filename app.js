@@ -32,6 +32,8 @@ jQuery(function ($) {
         deactivate_button(btn_paste_video);
     };
     form_create_media.find('.btn-submit').text('Next');
+    form_create_media.find('.btn-cancel').text('Close');
+
     var activate_button = function (button) {
         deactivate_buttons();
         button.addClass('active');
@@ -41,19 +43,22 @@ jQuery(function ($) {
         console.log(create_media_type);
 
         if(create_media_type === 'paste_image') {
+            form_create_media.find('.title').text('Paste Image URL');
             activate_button(btn_paste_image);
         }
         if(create_media_type === 'paste_video') {
+            form_create_media.find('.title').text('Paste Video URL');
             activate_button(btn_paste_video);
         }
         if(create_media_type === 'make_meme') {
-            activate_button(btn_make_meme);
+            window.open('http://memeful.com/generator','_blank');
         }
         if(create_media_type === 'choose_files') {
+            form_create_media.find('.title').text('Choose files');
             activate_button(btn_choose_files);
         }
     };
-    var create_media_type = 'choose_files';
+    switch_form_create_media('choose_files');
     btn_paste_image.click(function () {
         switch_form_create_media('paste_image');
     });

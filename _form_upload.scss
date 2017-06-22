@@ -1,4 +1,19 @@
 #form-upload {
+  .forms {
+    form{
+      .title {
+
+      }
+      .btn-submit {
+        &:hover{
+          background-color: #33adff;
+        }
+        background-color: #0099FF;
+        border: 1px solid #0099FF;
+      }
+    }
+  }
+
   .buttons-switch-form {
     .button-switch-form {
       padding-top: 2em;

@@ -6,6 +6,11 @@ body {
     margin-top: 10px;
     background-color: #0099FF;
     color: #fff; }
+  body #form-upload .forms form .btn-submit {
+    background-color: #0099FF;
+    border: 1px solid #0099FF; }
+    body #form-upload .forms form .btn-submit:hover {
+      background-color: #33adff; }
   body #form-upload .buttons-switch-form .button-switch-form {
     padding-top: 2em;
     border: 1px solid #eee;
