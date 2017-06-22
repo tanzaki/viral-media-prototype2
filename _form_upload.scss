@@ -5,6 +5,12 @@
       border:1px solid #eee;
       text-align: center;
       padding-bottom: 7px;
+      &.active{
+        border:1px solid #0099FF;
+        .icon_box-text{
+          color: #0099FF;
+        }
+      }
       .icon{
         display:inline-block;
         height:48px;

@@ -11,6 +11,10 @@ body {
     border: 1px solid #eee;
     text-align: center;
     padding-bottom: 7px; }
+    body #form-upload .buttons-switch-form .button-switch-form.active {
+      border: 1px solid #0099FF; }
+      body #form-upload .buttons-switch-form .button-switch-form.active .icon_box-text {
+        color: #0099FF; }
     body #form-upload .buttons-switch-form .button-switch-form .icon {
       display: inline-block;
       height: 48px;

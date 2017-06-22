@@ -21,10 +21,25 @@ jQuery(function ($) {
     btn_paste_video.addClass('icon-box-paste_video').prepend('<div class="icon_box-text">Paste video url</div>').prepend('<div class="icon"></div>');
     btn_make_meme.addClass('icon-box-make_meme').prepend('<div class="icon_box-text">Make meme</div>').prepend('<div class="icon"></div>');
 
+    var activate_button = function (button) {
+        button.addClass('active');
+    };
     var switch_form_create_media = function (form_id) {
         create_media_type = form_id;
         console.log(create_media_type);
-        // F12 > Console > Click button and you see result
+
+        if(create_media_type === 'paste_image') {
+            activate_button(btn_paste_image);
+        }
+        if(create_media_type === 'paste_video') {
+            activate_button(btn_paste_video);
+        }
+        if(create_media_type === 'make_meme') {
+            activate_button(btn_make_meme);
+        }
+        if(create_media_type === 'choose_files') {
+            activate_button(btn_choose_files);
+        }
     };
     var create_media_type = 'choose_files';
     btn_paste_image.click(function () {
