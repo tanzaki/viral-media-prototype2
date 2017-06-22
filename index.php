@@ -91,12 +91,12 @@
                     <div class="row buttons-switch-form"></div>
                     <hr>
                     <div class="forms">
-                        <form method="post" role="form">
+                        <form method="post" role="form" enctype="multipart/form-data">
                             <h3 class="title"></h3>
 
                             <div class="form-group">
                                 <label for="media_input"></label>
-                                <input type="text" class="form-control" name="" id="media_input" placeholder="https://">
+                                <input type="text" class="form-control" name="user_file_media" id="media_input" placeholder="https://">
                             </div>
 
                             <div class="pull-right">
