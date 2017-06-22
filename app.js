@@ -8,7 +8,8 @@ jQuery(function ($) {
     var btn_paste_video = $('<div class="button-switch-form"></div>');
     var btn_make_meme = $('<div class="button-switch-form"></div>');
     //END: Setup events for Buttons switch form
-    $('#form-upload').find('.buttons-switch-form').append(btn_choose_files,btn_paste_image,btn_paste_video,btn_make_meme);
+    var form_create_media = $('#form-upload');
+    form_create_media.find('.buttons-switch-form').append(btn_choose_files,btn_paste_image,btn_paste_video,btn_make_meme);
 
     btn_choose_files.wrap($('<div class="col-xs-3"></div>'));
     btn_paste_image.wrap($('<div class="col-xs-3"></div>'));
