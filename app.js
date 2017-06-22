@@ -38,6 +38,7 @@ jQuery(function ($) {
         deactivate_buttons();
         button.addClass('active');
     };
+    var create_media_type;
     var switch_form_create_media = function (form_id) {
         create_media_type = form_id;
         console.log(create_media_type);
