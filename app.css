@@ -6,6 +6,23 @@ body {
     margin-top: 10px;
     background-color: #0099FF;
     color: #fff; }
+  body #form-upload .buttons-switch-form .button-switch-form {
+    padding-top: 2em;
+    border: 1px solid #eee;
+    text-align: center; }
+    body #form-upload .buttons-switch-form .button-switch-form .icon {
+      display: inline-block;
+      height: 48px;
+      width: 48px; }
+    body #form-upload .buttons-switch-form .button-switch-form .icon_box-text {
+      text-align: center;
+      margin-top: 1em; }
+    body #form-upload .buttons-switch-form .button-switch-form.icon-box-choose_files .icon {
+      background: url(http://i.imgur.com/3sYWUup.png) -76px 0 no-repeat;
+      background-size: 224px 82px; }
+    body #form-upload .buttons-switch-form .button-switch-form.icon-box-paste_image .icon {
+      background: url(http://i.imgur.com/3sYWUup.png) -124px 0 no-repeat;
+      background-size: 224px 82px; }
   body #main_section #list_gags .gag-item {
     max-width: 500px; }
     body #main_section #list_gags .gag-item .gag-title {
