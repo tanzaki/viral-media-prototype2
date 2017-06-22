@@ -1,7 +1,17 @@
 body{
   .navbar{
+    .navbar-brand{
+      padding: 6px 15px;
+      img{
+        height: 40px;
+      }
+    }
     #user-functions{
+      .button-search{
+        font-size:20px;
+      }
       .button-upload{
+        margin-right: 10px;
         padding-top: 5px;
         padding-bottom: 5px;
         margin-top: 10px;
@@ -17,6 +27,9 @@ body{
     .featured_items{
       .featured_item_wrap{
         margin-bottom:16px;
+        &:hover .title{
+          color: #0099FF;
+        }
         .image_wrap{
           height:100px;
           width:300px;
@@ -27,9 +40,6 @@ body{
           }
         }
         .title{
-          &:hover{
-            color: #0099FF;
-          }
           text-decoration: none;
           color:black;
           font-weight:bold;
@@ -43,6 +53,13 @@ body{
       .gag-item{
         max-width: 500px;
         .gag-title{
+          a{
+            &:hover{
+              color:#0099FF;
+            }
+            text-decoration: none;
+            color:black;
+          }
           font-weight: bolder;
         }
         .gag-media-content{

@@ -75,5 +75,4 @@ jQuery(function ($) {
     btn_choose_files.click(function () {
         switch_form_create_media('choose_files');
     });
-    $('#myModal').modal();
 });

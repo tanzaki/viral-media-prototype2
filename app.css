@@ -1,6 +1,13 @@
 body {
   margin-top: 83px; }
+  body .navbar .navbar-brand {
+    padding: 6px 15px; }
+    body .navbar .navbar-brand img {
+      height: 40px; }
+  body .navbar #user-functions .button-search {
+    font-size: 20px; }
   body .navbar #user-functions .button-upload {
+    margin-right: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
     margin-top: 10px;
@@ -44,6 +51,8 @@ body {
       height: 42px; }
   body #sidebar_section .featured_items .featured_item_wrap {
     margin-bottom: 16px; }
+    body #sidebar_section .featured_items .featured_item_wrap:hover .title {
+      color: #0099FF; }
     body #sidebar_section .featured_items .featured_item_wrap .image_wrap {
       height: 100px;
       width: 300px;
@@ -55,12 +64,15 @@ body {
       text-decoration: none;
       color: black;
       font-weight: bold; }
-      body #sidebar_section .featured_items .featured_item_wrap .title:hover {
-        color: #0099FF; }
   body #main_section #list_gags .gag-item {
     max-width: 500px; }
     body #main_section #list_gags .gag-item .gag-title {
       font-weight: bolder; }
+      body #main_section #list_gags .gag-item .gag-title a {
+        text-decoration: none;
+        color: black; }
+        body #main_section #list_gags .gag-item .gag-title a:hover {
+          color: #0099FF; }
     body #main_section #list_gags .gag-item .gag-media-content {
       border: 1px solid #ddd; }
       body #main_section #list_gags .gag-item .gag-media-content img {

@@ -19,11 +19,15 @@
                 $articles = (json_decode($articles_json));
                 foreach ($articles as $article) {
                     echo "<div class='gag-item'>";
-                    echo "<h4 class='gag-title'>{$article->title}</h4>";
+                    echo "<h4 class='gag-title'>
+    <a href='#'>{$article->title}</a>
+</h4>";
                     if ($article->type === 'image') {
                         echo "
 <div class='gag-media-content'>
-<img src='{$article->media_source}'>
+<a href='#'>
+    <img src='{$article->media_source}'>
+</a>
 </div>                        
                         ";
                     }
@@ -78,7 +82,7 @@ HTML;
                     echo <<<HTML
                     <div class="featured_item_wrap">
                         <div class="image_wrap">
-                            $media_html
+                            <a href="#">$media_html</a>
                         </div>
                         <a href="#" class="title">{$article->title}</a>
                     </div>
